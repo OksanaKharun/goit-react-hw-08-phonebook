@@ -9,7 +9,20 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-   
+   const handleChange = evt => {
+    const { name, value } = evt.target;
+    switch (name) {
+      case 'email':
+        setEmail(value);
+        break;
+      case 'password':
+        setPassword(value);
+        break;
+
+      default:
+        throw new Error();
+    }
+  };
 
 
  const handleOnSubmit = event => {
@@ -41,7 +54,7 @@ const Login = () => {
           <Form.Label className='lable'>Email</Form.Label>
           <Form.Control
             className='login-input'
-            
+            onChange={handleChange}
             name="email"
             value={email}
             type="email"
@@ -52,7 +65,7 @@ const Login = () => {
           <Form.Label>Password</Form.Label>
           <Form.Control
             className='login-input'
-            
+            onChange={handleChange}
             type="password"
             name="password"
             value={password}
