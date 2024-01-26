@@ -11,7 +11,7 @@ const Navigation = () => {
   const token = useSelector(selectToken) ?? '';
   return (
     <>
-      <Navbar >
+      <Navbar className={css.Form} >
         <Container>
           <Navbar.Brand href="/goit-react-hw-08-phonebook/contacts"
           className='nav-brand'>

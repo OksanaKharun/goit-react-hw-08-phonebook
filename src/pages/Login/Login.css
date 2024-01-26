@@ -26,3 +26,7 @@ margin-top: 8px;
 .lable{
     margin-right: 28px;;
 }
+.Form {
+    display: flex;
+    justify-content: space-between;
+}

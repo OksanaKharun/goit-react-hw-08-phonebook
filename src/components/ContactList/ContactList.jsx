@@ -20,7 +20,7 @@ const ContactList = function () {
     <ul className="contact-menu">
       {filteredContacts.map(({ id, name, number }) => (
         <li className="contact-list" key={id}>
-          <p >
+          <p className={css.Form}>
             {name}:{number}
             <button className="delete-btn"
               data-id={id}

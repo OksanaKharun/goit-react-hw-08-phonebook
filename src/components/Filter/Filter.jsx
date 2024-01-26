@@ -11,7 +11,7 @@ const Filter = function () {
       Find contacts by name
       <input 
         placeholder="Enter a name"
-        
+        className={css.Form}
         type="text"
         name="filter"
         value={filter}

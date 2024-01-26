@@ -13,7 +13,7 @@
     color: #111;
 }
 
-.BtnForm
+.contact-btn
   {
     margin-top: 12px;
     margin-left: 100px;
@@ -27,4 +27,9 @@
     transition: 0.3s;
     width: 104px;
 
+}
+.Form{
+    display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
 }

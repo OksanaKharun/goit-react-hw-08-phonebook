@@ -38,7 +38,7 @@ const SignUp = () => {
       .catch(() => alert('Please enter all inputs'));
   };
   return (
-    <Container>
+    <Container className={css.Form}>
       <Form  className='sign-up'onSubmit={handleOnSubmit}>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>User Name</Form.Label>

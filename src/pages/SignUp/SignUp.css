@@ -34,3 +34,8 @@
     margin-right: 14px;
     ;
 }
+.Form {
+    display: flex;
+    
+    justify-content: space-between;
+}

@@ -11,7 +11,7 @@ const InfoUser = () => {
     dispatch(logoutThunk());
   };
   return (
-    <div>
+    <div className={css.Form}>
       {user && (
         <div >
           <Button className='logout-btn'

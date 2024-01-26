@@ -37,7 +37,7 @@ const Login = () => {
   };
 
   return (
-    <Container>
+    <Container className={css.Form}>
       <Form className='log-in' onSubmit={handleOnSubmit}>
         <Form.Group controlId="formBasicEmail">
           <Form.Label className='lable'>Email</Form.Label>

@@ -11,3 +11,8 @@
    margin-left: 50px;
 
 }
+.Form {
+    display: flex;
+    
+    justify-content: space-between;
+}

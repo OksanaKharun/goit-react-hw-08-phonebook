@@ -54,7 +54,7 @@ const ContactForm = () => {
           onChange={handleChange}
         />
       </label>
-      <label >
+      <label className={css.Form} >
         Number
         <input
           placeholder="Enter a number"
@@ -66,7 +66,7 @@ const ContactForm = () => {
           required
           onChange={handleChange}
         />
-        <button  className={css.BtnForm} type="submit">
+        <button className='contact-btn' type="submit">
           Add contact
         </button>
       </label>

@@ -9,3 +9,8 @@
 .nav-link{
     margin-left: 24px;
 }
+.Form {
+    display: flex;
+   
+    justify-content: space-between;
+}
