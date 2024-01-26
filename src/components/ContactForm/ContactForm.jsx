@@ -66,7 +66,7 @@ const ContactForm = () => {
           required
           onChange={handleChange}
         />
-        <button className='contact-btn' type="submit">
+        <button  className={css.BtnForm} type="submit">
           Add contact
         </button>
       </label>
