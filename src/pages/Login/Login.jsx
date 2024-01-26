@@ -9,32 +9,30 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-   const handleChange = evt => {
-    const { name, value } = evt.target;
-    switch (name) {
-      case 'email':
-        setEmail(value);
-        break;
-      case 'password':
-        setPassword(value);
-        break;
+   
 
-      default:
-        throw new Error();
-    }
-  };
 
-  const handleOnSubmit = event => {
+ const handleOnSubmit = event => {
     event.preventDefault();
 
-    dispatch(loginThunk({ email, password }))
+    const form = event.currentTarget;
+    dispatch(
+      loginThunk({
+        email: form.elements.email.value,
+        password: form.elements.password.value,
+      })
+    )
       .unwrap()
-      .then(() => {
+       .then(() => {
         setEmail('');
         setPassword('');
       })
-      .catch(() => alert('Please fill all fields'));
+     .catch(() => alert('Incorrect login or password'));
+
+    form.reset();
   };
+
+
 
   return (
     <Container className={css.Form}>
@@ -43,7 +41,7 @@ const Login = () => {
           <Form.Label className='lable'>Email</Form.Label>
           <Form.Control
             className='login-input'
-            onChange={handleChange}
+            
             name="email"
             value={email}
             type="email"
@@ -54,7 +52,7 @@ const Login = () => {
           <Form.Label>Password</Form.Label>
           <Form.Control
             className='login-input'
-            onChange={handleChange}
+            
             type="password"
             name="password"
             value={password}
