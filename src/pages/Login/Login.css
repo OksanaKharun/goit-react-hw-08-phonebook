@@ -1,0 +1,28 @@
+.login-btn{
+margin-top: 8px;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    border-radius: 24px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #43144998;
+}
+.login-input{
+    padding: 8px 24px;
+        outline: none;
+        
+        border-radius: 4px;
+        cursor: pointer;
+        color: #111;
+}
+.log-in{
+    
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        
+}
+.lable{
+    margin-right: 28px;;
+}

@@ -1,0 +1,29 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact-form input {
+    padding: 8px 24px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #111;
+}
+
+.contact-btn {
+    margin-top: 12px;
+    margin-left: 100px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 24px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #5076aa;
+    transition: 0.3s;
+    width: 104px;
+
+}

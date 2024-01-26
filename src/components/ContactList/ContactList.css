@@ -1,0 +1,14 @@
+
+
+.delete-btn {
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    border-radius: 24px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #c13d3d93;
+    
+
+}

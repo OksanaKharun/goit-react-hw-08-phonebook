@@ -1,0 +1,11 @@
+.nav-brand{
+    font-size: 40px;
+        border-radius: 32px 32px 0 0;
+        justify-content: center;
+        color: rgb(76, 29, 70);
+       
+        
+}
+.nav-link{
+    margin-left: 24px;
+}
