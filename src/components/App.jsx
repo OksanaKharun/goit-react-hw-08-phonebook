@@ -30,7 +30,7 @@ export const App = () => {
       <Navigation />
       <Routes>
         <Route path="/" element={<PublicRoute />}>
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/register" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
         </Route>
         <Route path="/" element={<PrivateRoute />}>

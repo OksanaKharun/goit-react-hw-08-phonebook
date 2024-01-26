@@ -9,7 +9,7 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleChange = evt => {
+   const handleChange = evt => {
     const { name, value } = evt.target;
     switch (name) {
       case 'email':
@@ -33,7 +33,7 @@ const Login = () => {
         setEmail('');
         setPassword('');
       })
-      .catch(() => alert('Incorrect login or password'));
+      .catch(() => alert('Please fill all fields'));
   };
 
   return (

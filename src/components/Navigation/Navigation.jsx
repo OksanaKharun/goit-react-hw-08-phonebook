@@ -24,7 +24,7 @@ const Navigation = () => {
                   Contacts
                 </Nav.Link>
               )}
-              <Nav.Link to="/signup" as={Link} className='nav-link'>
+              <Nav.Link to="/register" as={Link} className='nav-link'>
                 Sign Up
               </Nav.Link>
               <Nav.Link to="/login" as={Link}>

@@ -9,7 +9,8 @@ const Contacts = () => {
   const dispatch = useDispatch();
   const contacts = useSelector(state => state.contacts.items);
   const filtered = useSelector(state => state.filter);
-  const filterContact = e => {
+  
+  const filterContact = evt => {
     const filteredContacts = contacts.filter(contact =>
       contact.name.toLowerCase().includes(filtered.toLowerCase())
     );

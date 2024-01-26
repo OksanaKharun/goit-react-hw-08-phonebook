@@ -5,6 +5,7 @@ import { logoutThunk } from '../../redux/dataUser/userThunk';
 import css from './InfoUser.css';
 
 const InfoUser = () => {
+  
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
   const handleSubmit = () => {
