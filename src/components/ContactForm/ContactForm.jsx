@@ -39,8 +39,8 @@ const ContactForm = () => {
   const contacts = useSelector(getCont);
 
   return (
-    <form className="contact-form " onSubmit={handleSubmit}>
-      <label className="lable-form " >
+    <form className='contact-form' onSubmit={handleSubmit}>
+      <label >
         Name
         <input
           placeholder="Enter a name"
@@ -58,7 +58,6 @@ const ContactForm = () => {
         Number
         <input
           placeholder="Enter a number"
-          className=''
           value={number}
           type="tel"
           name="number"
@@ -67,7 +66,7 @@ const ContactForm = () => {
           required
           onChange={handleChange}
         />
-        <button className="contact-btn" type="submit">
+        <button className='contact-btn' type="submit">
           Add contact
         </button>
       </label>
