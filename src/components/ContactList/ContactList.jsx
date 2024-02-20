@@ -17,7 +17,7 @@ const ContactList = function () {
   const filteredContacts = filterContact();
 
   return (
-    <ul className="contact-menu">
+    <ul >
       {filteredContacts.map(({ id, name, number }) => (
         <li className="contact-list" key={id}>
           <p className={css.Form}>

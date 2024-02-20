@@ -1,15 +1,17 @@
 .logout-btn {
-    
-    margin-top: 8px;
-    border: none;
-    outline: none;
-    padding: 8px 14px;
-    border-radius: 24px;
-    cursor: pointer;
-    color: #fff;
-    background-color: #43144998;
-   margin-left: 50px;
+    padding: 10px;
+    width: 104px;
+    border: 1px solid #DDDDDD;
+    background-color: rgb(193, 221, 246);
+    border-radius: 15px;
+    font-family: 'Allura', cursive;
+    margin-left: 8px;
+}
 
+.logout-btn:hover,
+.logout-btn:focus {
+    box-shadow: 0 0 50px 15px #4c7a93;
+    font-weight: 600;
 }
 .Form {
     display: flex;

@@ -39,11 +39,11 @@ const Login = () => {
 
   return (
     <Container className={css.Form}>
-      <Form className='log-in' onSubmit={handleOnSubmit}>
-        <Form.Group controlId="formBasicEmail">
-          <Form.Label className='lable'>Email</Form.Label>
+      <Form className="wrap form" onSubmit={handleOnSubmit}>
+        <Form.Group  controlId="formBasicEmail">
+          <Form.Label >Email</Form.Label>
           <Form.Control
-            className='login-input'
+           
             onChange={handleChange}
             name="email"
             value={email}
@@ -51,10 +51,10 @@ const Login = () => {
             placeholder="Enter your email"
           />
         </Form.Group>
-        <Form.Group controlId="formBasicPassword">
+        <Form.Group  controlId="formBasicPassword">
           <Form.Label>Password</Form.Label>
           <Form.Control
-            className='login-input'
+            
             onChange={handleChange}
             type="password"
             name="password"
@@ -62,7 +62,7 @@ const Login = () => {
             placeholder="Enter your password"
           />
         </Form.Group>
-        <Button className='login-btn'
+        <Button className="submit"
           type="submit">
           Log in
         </Button>

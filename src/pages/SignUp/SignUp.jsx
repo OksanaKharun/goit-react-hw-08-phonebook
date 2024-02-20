@@ -39,7 +39,7 @@ const SignUp = () => {
   };
   return (
     <Container className={css.Form}>
-      <Form  className='sign-up'onSubmit={handleOnSubmit}>
+      <Form  className="wrap form" onSubmit={handleOnSubmit}>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>User Name</Form.Label>
           <Form.Control
@@ -73,7 +73,7 @@ const SignUp = () => {
             placeholder="Enter your password"
           />
         </Form.Group>
-        <Button className='signup-btn' type="submit">
+        <Button className="submit" type="submit">
           Sign Up
         </Button>
       </Form>

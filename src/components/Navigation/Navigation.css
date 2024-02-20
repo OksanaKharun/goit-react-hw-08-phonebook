@@ -1,16 +1,79 @@
-.nav-brand{
-    font-size: 40px;
-        border-radius: 32px 32px 0 0;
-        justify-content: center;
-        color: rgb(76, 29, 70);
-       
-        
+header {
+    width: 100%;
+    margin: 0;
+    gap: 10px;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, rgb(0, 48, 131), rgb(255, 255, 255)) 1;
+    width: 100%;
+
 }
-.nav-link{
-    margin-left: 24px;
-}
-.Form {
+
+.container {
     display: flex;
-   
+    align-items: center;
     justify-content: space-between;
+    padding: 10px 5px;
+    margin: 0;
+    gap: 10px;
+}
+
+
+
+.navbuttons {
+    padding: 10px;
+    
+    border: 1px solid #DDDDDD;
+    background-color: aliceblue;
+    border-radius: 15px;
+    font-family: 'Allura', cursive;
+
+
+}
+
+.navbuttons:hover,
+.navbuttons:focus {
+    box-shadow: 0 0 50px 15px #82c6eb;
+    transform: scale(1.1);
+}
+
+.text {
+    color: black;
+    text-decoration: none;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+}
+
+.login {
+    background-color: rgb(17, 103, 178);
+    text-decoration: none;
+
+}
+
+.login:hover,
+.login:focus {
+    box-shadow: 0 0 50px 15px rgb(11, 84, 148);
+
+}
+
+.textlogin {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0;
+    line-height: 0;
+    color: rgb(17, 103, 178);
+    text-align: center;
+}
+.navigation {
+    margin-left: 24px;
+    display: flex;
+    gap: 5px;
 }
