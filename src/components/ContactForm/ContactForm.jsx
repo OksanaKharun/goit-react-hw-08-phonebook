@@ -10,6 +10,7 @@ const ContactForm = () => {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
+  
   useEffect(() => {
     dispatch(getContactsThunk());
   }, [dispatch]);

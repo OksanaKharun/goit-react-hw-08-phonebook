@@ -37,6 +37,7 @@ const SignUp = () => {
       })
       .catch(() => alert('Please enter all inputs'));
   };
+  
   return (
     <Container className={css.Form}>
       <Form  className="wrap form" onSubmit={handleOnSubmit}>

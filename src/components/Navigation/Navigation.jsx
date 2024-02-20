@@ -33,6 +33,7 @@ const Navigation = () => {
             </Nav>
           )}
 
+          
           <InfoUser  />
         </Container>
       </Navbar>

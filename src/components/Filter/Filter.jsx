@@ -4,6 +4,7 @@ import { filterContacts } from '../../redux/FilterSlice';
 import { getFilter } from '../../redux/Selectors';
 import css from './Filter.css';
 
+
 const Filter = function () {
   const filter = useSelector(getFilter);
   const dispatch = useDispatch();

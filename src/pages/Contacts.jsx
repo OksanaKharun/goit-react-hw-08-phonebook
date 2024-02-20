@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getContactsThunk } from '../redux/ContactsThunk';
 
+
 const Contacts = () => {
   const dispatch = useDispatch();
   const contacts = useSelector(state => state.contacts.items);

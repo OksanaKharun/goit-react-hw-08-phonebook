@@ -10,6 +10,7 @@ input {
     border-radius: 15px;
 }
 
+
 input:focus,
 input:hover {
     box-shadow: 0 0 50px 15px #82c6eb;

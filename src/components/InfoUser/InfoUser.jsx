@@ -26,4 +26,5 @@ const InfoUser = () => {
   );
 };
 
+
 export default InfoUser;
