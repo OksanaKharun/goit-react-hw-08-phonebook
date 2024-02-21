@@ -10,7 +10,7 @@ export const token = {
 };
 
 export const signUpUser = async credentials => {
-  const { data } = await backendAPI.post('users/register', credentials);
+  const { data } = await backendAPI.post('users/signup', credentials);
   return data;
 };
 
